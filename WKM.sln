@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Apresentacao", "0 - Apresentacao", "{48D71144-8E22-4D87-B39F-E6BB66B98300}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Servicos", "1 - Servicos", "{14E847A1-3F11-415C-9DD3-299EF85DE28A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Aplicacao", "2 - Aplicacao", "{0669146E-F9AD-46D4-A6E5-182D39FA5244}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Dominio", "3 - Dominio", "{F6D62EEC-779F-4865-BC7D-D47E69CCF190}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{60E893EB-F3AC-4180-BFD0-242FB27E429F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidiaSocialEmpresa.Aplicacao", "MidiaSocialEmpresa.Aplicacao\MidiaSocialEmpresa.Aplicacao.csproj", "{812FC69E-CC0D-46F1-89CE-607DA2DAB466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidiaSocialEmpresa.Dominio", "MidiaSocialEmpresa.Dominio\MidiaSocialEmpresa.Dominio.csproj", "{F2BD3335-F196-4602-A120-77F0F8B0AE40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Dados", "4.1 - Dados", "{7D8AF72B-8FF1-4C45-91D6-778913ABB19C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidiaSocialEmpresa.Infra.Dados", "MidiaSocialEmpresa.Infra.Data\MidiaSocialEmpresa.Infra.Dados.csproj", "{DF2F77FA-CB70-401F-BEFD-35718E60E977}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CorteVertical", "4.2 - CorteVertical", "{C4782A5A-8C3E-4162-B2FB-8B751E4C4B84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidiaSocialEmpresa.API", "MidiaSocialEmpresa.API\MidiaSocialEmpresa.API.csproj", "{E08B5AC0-63D4-4036-9607-35E44FF97C07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidiaSocialEmpresa.Web", "MidiaSocialEmpresa.Web\MidiaSocialEmpresa.Web.csproj", "{AC3F7785-932D-47FB-A999-BAA9B2E09CE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidiaSocialEmpresa.Infra.DadosTest", "MidiaSocialEmpresa.Infra.DadosTest\MidiaSocialEmpresa.Infra.DadosTest.csproj", "{3BE8C96D-1484-4E64-9A7B-AAD170317C47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidiaSocialEmpresa.DominioTest", "MidiaSocialEmpresa.DominioTest\MidiaSocialEmpresa.DominioTest.csproj", "{27F0B01F-3D0B-4426-AE00-A428841BC76F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidiaSocialEmpresa.AplicacaoTest", "MidiaSocialEmpresa.AplicacaoTest\MidiaSocialEmpresa.AplicacaoTest.csproj", "{691C465E-CB5C-404A-A977-1F463246DB8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidiaSocialEmpresa.APITest", "MidiaSocialEmpresa.APITest\MidiaSocialEmpresa.APITest.csproj", "{59F77BCD-9236-4EC1-925F-2EA8272D3295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MidiaSocial.Utilidades", "Utilidades\MidiaSocial.Utilidades.csproj", "{B6B6CB98-700F-42D5-A171-332586A60C97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{812FC69E-CC0D-46F1-89CE-607DA2DAB466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{812FC69E-CC0D-46F1-89CE-607DA2DAB466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{812FC69E-CC0D-46F1-89CE-607DA2DAB466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{812FC69E-CC0D-46F1-89CE-607DA2DAB466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2BD3335-F196-4602-A120-77F0F8B0AE40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2BD3335-F196-4602-A120-77F0F8B0AE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2BD3335-F196-4602-A120-77F0F8B0AE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2BD3335-F196-4602-A120-77F0F8B0AE40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF2F77FA-CB70-401F-BEFD-35718E60E977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF2F77FA-CB70-401F-BEFD-35718E60E977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF2F77FA-CB70-401F-BEFD-35718E60E977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF2F77FA-CB70-401F-BEFD-35718E60E977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E08B5AC0-63D4-4036-9607-35E44FF97C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E08B5AC0-63D4-4036-9607-35E44FF97C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E08B5AC0-63D4-4036-9607-35E44FF97C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E08B5AC0-63D4-4036-9607-35E44FF97C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3F7785-932D-47FB-A999-BAA9B2E09CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3F7785-932D-47FB-A999-BAA9B2E09CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3F7785-932D-47FB-A999-BAA9B2E09CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3F7785-932D-47FB-A999-BAA9B2E09CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE8C96D-1484-4E64-9A7B-AAD170317C47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE8C96D-1484-4E64-9A7B-AAD170317C47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE8C96D-1484-4E64-9A7B-AAD170317C47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE8C96D-1484-4E64-9A7B-AAD170317C47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F0B01F-3D0B-4426-AE00-A428841BC76F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F0B01F-3D0B-4426-AE00-A428841BC76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F0B01F-3D0B-4426-AE00-A428841BC76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F0B01F-3D0B-4426-AE00-A428841BC76F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691C465E-CB5C-404A-A977-1F463246DB8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691C465E-CB5C-404A-A977-1F463246DB8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691C465E-CB5C-404A-A977-1F463246DB8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691C465E-CB5C-404A-A977-1F463246DB8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F77BCD-9236-4EC1-925F-2EA8272D3295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F77BCD-9236-4EC1-925F-2EA8272D3295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F77BCD-9236-4EC1-925F-2EA8272D3295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F77BCD-9236-4EC1-925F-2EA8272D3295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B6CB98-700F-42D5-A171-332586A60C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B6CB98-700F-42D5-A171-332586A60C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B6CB98-700F-42D5-A171-332586A60C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B6CB98-700F-42D5-A171-332586A60C97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{812FC69E-CC0D-46F1-89CE-607DA2DAB466} = {0669146E-F9AD-46D4-A6E5-182D39FA5244}
+		{F2BD3335-F196-4602-A120-77F0F8B0AE40} = {F6D62EEC-779F-4865-BC7D-D47E69CCF190}
+		{7D8AF72B-8FF1-4C45-91D6-778913ABB19C} = {60E893EB-F3AC-4180-BFD0-242FB27E429F}
+		{DF2F77FA-CB70-401F-BEFD-35718E60E977} = {7D8AF72B-8FF1-4C45-91D6-778913ABB19C}
+		{C4782A5A-8C3E-4162-B2FB-8B751E4C4B84} = {60E893EB-F3AC-4180-BFD0-242FB27E429F}
+		{E08B5AC0-63D4-4036-9607-35E44FF97C07} = {14E847A1-3F11-415C-9DD3-299EF85DE28A}
+		{AC3F7785-932D-47FB-A999-BAA9B2E09CE5} = {48D71144-8E22-4D87-B39F-E6BB66B98300}
+		{3BE8C96D-1484-4E64-9A7B-AAD170317C47} = {7D8AF72B-8FF1-4C45-91D6-778913ABB19C}
+		{27F0B01F-3D0B-4426-AE00-A428841BC76F} = {F6D62EEC-779F-4865-BC7D-D47E69CCF190}
+		{691C465E-CB5C-404A-A977-1F463246DB8D} = {0669146E-F9AD-46D4-A6E5-182D39FA5244}
+		{59F77BCD-9236-4EC1-925F-2EA8272D3295} = {14E847A1-3F11-415C-9DD3-299EF85DE28A}
+		{B6B6CB98-700F-42D5-A171-332586A60C97} = {C4782A5A-8C3E-4162-B2FB-8B751E4C4B84}
+	EndGlobalSection
+EndGlobal
