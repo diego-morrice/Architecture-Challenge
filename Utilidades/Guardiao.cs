@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 
-namespace MidiaSocial.Utilidades
+namespace GoProjects.Utilidades
 {
     public class Guardiao
     {

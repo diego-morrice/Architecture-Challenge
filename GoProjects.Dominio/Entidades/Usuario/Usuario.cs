@@ -1,4 +1,4 @@
-﻿using MidiaSocial.Utilidades;
+﻿using GoProjects.Utilidades;
 using System;
 using System.Collections.Generic;
 
